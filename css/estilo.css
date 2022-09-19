@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+}
+
+.icono-menu {
+    display: none;
+}
+
+.navegacion {
+    display: flex;
+    margin-right: 35vw;
+}
+
+.enlaces {
+    margin-top: 10vh;
+    font-size: 1.5em;
+}
+
+.enlace {
+    margin-left: 5vw;
+    text-decoration: none;
+    color: black;
+}
+
+.seccion-principal {
+    margin-top: 5vh;
+    display: flex;
+}
+
+.texto-seccion-principal {
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-top: 20vh;
+}
+
+.texto-seccion-principal h2 {
+    font-size: 3em;
+    margin-left: 5vw;
+}
+
+.texto-seccion-principal p {
+    font-size: 1.5em;
+    padding-right: 28vw;
+    margin-top: 5vh;
+}
+
+.seccion-principal img {
+    margin-right: 2vw;
+    margin-bottom: 5vh;
+}
+
+.seccion-secundaria {
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.seccion-secundaria-1,
+.seccion-secundaria-2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10vh;
+}
+
+.seccion-secundaria-1 p {
+    margin-right: 30vw;
+    margin-left: 10vw;
+    margin-top: 12vh;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.seccion-secundaria-2 p {
+    margin-right: 10vw;
+    margin-left: 30vw;
+    margin-top: 12vh;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+@media (max-width: 780px) {
+    .enlaces {
+        display: none;
+        flex-direction: column;
+        margin-left: 26.5vw;
+    }
+
+    .enlace {
+        margin-bottom: 5vh;
+    }
+
+    .navegacion {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15vw;
+    }
+
+    .icono-menu {
+        display: flex;
+        margin-left: 32vw;
+        margin-bottom: 2vh;
+        width: 40px;
+    }
+
+    .seccion-principal {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .texto-seccion-principal {
+        margin-top: 0;
+    }
+
+    .texto-seccion-principal h2 {
+        font-size: 5em;
+        margin-right: 8vw;
+    }
+
+    .texto-seccion-principal p {
+        padding: 0;
+        margin-top: 2vh;
+        margin-left: 13vw;
+        margin-right: 17vw;
+        margin-bottom: 5vh;
+    }
+
+    .seccion-principal img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60vw;
+    }
+
+    .seccion-secundaria {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .seccion-secundaria-1 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .seccion-secundaria-1 img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5vh;
+        width: 60vw;
+    }
+
+    .seccion-secundaria-1 p {
+        margin-left: 15vw;
+        margin-right: 15vw;
+        margin-top: 0;
+    }
+
+    .seccion-secundaria-2 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 5vh;
+    }
+
+    .seccion-secundaria-2 img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        width: 60vw;
+    }
+
+    .seccion-secundaria-2 p {
+        margin-left: 15vw;
+        margin-right: 15vw;
+        margin-top: 0;
+    }
+}
